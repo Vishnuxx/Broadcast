@@ -6,7 +6,7 @@ function Broadcast() {
  
     this.register = (callback) => {
         if(callback instanceof Function){
-          handlers.add(callback);
+          handlers.push(callback);
         }else{
          throw "Can register only callback functions";
         }
