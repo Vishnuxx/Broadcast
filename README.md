@@ -3,9 +3,9 @@ Broadcast is an event broadcasting library which can trigger multiple function i
 
 ##Example
 
- import Broadcast from './Broadcast.js';
+ import Broadcast
 
-        var b = new Broadcasgtit();
+        var b = new Broadcast();
 
         b.register(function(a , b){
             console.log(a+b);
