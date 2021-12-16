@@ -1,6 +1,12 @@
 # Broadcast
 Broadcast is an event broadcasting library which can trigger multiple function in single call. Helps in code decoupling and to build scalable modular code.
 
+Consists of four methods
+     .register( callbackfunction )  => registers a function
+     .enable()                      => listens the trigger for dispatch
+     .disable()                     => stops listening for dispatch
+     .dispatch()                    => triggers the registered functions
+
 ##Example
 
  import Broadcast
