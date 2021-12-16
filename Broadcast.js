@@ -6,7 +6,7 @@ function Broadcast() {
     if (callback instanceof Function) {
       handlers.push(callback);
     } else {
-      throw "Can register only callback functions";
+      throw "Exception: incompatible parameter type. Can register only callback functions";
     }
   };
 
