@@ -8,7 +8,7 @@ Consists of four methods
      .disable()                     => stops listening for dispatch
      .dispatch()                    => triggers the registered functions
 
-##Example
+## Example
 
  import Broadcast
 
