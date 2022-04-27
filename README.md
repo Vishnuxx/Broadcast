@@ -18,10 +18,10 @@ Broadcast is an event broadcasting library which can trigger multiple function i
             console.log(a+b);
         })
         b.register(function(){
-            console.log('vishnu')
+            console.log('vish')
         })
         b.register(function(){
-            console.log("vishhh")
+            console.log("vishnuxx")
         })
 
-        b.dispatch(4 , 5);
+        b.dispatch(4 , 5); //triggers all function which are registered
